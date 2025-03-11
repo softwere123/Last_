@@ -1592,13 +1592,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836410240}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.031579174, y: -0.05153043, z: -0.65184903, w: 0.7559367}
-  m_LocalPosition: {x: -10.045, y: 1.535, z: -3.156}
+  m_LocalRotation: {x: 0.10363907, y: 0.103790715, z: -0.6468596, w: 0.748371}
+  m_LocalPosition: {x: -10.036, y: 1.415, z: -2.758}
   m_LocalScale: {x: -0.0573817, y: 0.49775937, z: 0.29879}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 994608696}
-  m_LocalEulerAnglesHint: {x: -6.599, y: -2.119, z: -81.421}
+  m_LocalEulerAnglesHint: {x: 16.822, y: 1.273, z: -81.489}
 --- !u!65 &836410242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_Colliders:
   - {fileID: 836410242}
   m_InteractionLayers:
-    m_Bits: 0
+    m_Bits: 3
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
