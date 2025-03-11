@@ -15,7 +15,7 @@ public class SetMenu3 : MonoBehaviour
     // Fwood, Ffire, Ftelport 배열을 선언 인터랙테이블에 기능으로 사용할 배열과 조건을 가져옴
     public XRSimpleInteractable[] Fwood;
     public XRSimpleInteractable[] Ffire;
-    public XRRayInteractor[] Ftelport;
+    //public XRRayInteractor[] Ftelport;  //텔포트 기능을 사용할때 사용할 배열 기능 구현예정
 
     // SetTypeFromIndex 메서드를 사용하여 인덱스에 따라 오브젝트 변경
     public void SetTypeFromIndex(int index) //dropdown에서 선택한 인덱스를 받아와서 해당 인덱스에 맞는 오브젝트를 활성화
@@ -26,28 +26,28 @@ public class SetMenu3 : MonoBehaviour
             //배열에 있는 상호작용 기능을 비활성화
             SetFwoodObjectsEnabled(false);
             SetFfireObjectsEnabled(false);
-            SetFtelportObjectsEnabled(false);
+            //SetFtelportObjectsEnabled(false);
         }
         else if (index == 1)
         {
             //배열에 있는 상호작용 fwood의 상호작용만 기능을 활성화
             SetFwoodObjectsEnabled(true);
             SetFfireObjectsEnabled(false);
-            SetFtelportObjectsEnabled(false);
+           // SetFtelportObjectsEnabled(false);
         }
         else if (index == 2)
         {
             //배열에 있는 상호작용 ffire의 상호작용만 기능을 활성화
             SetFwoodObjectsEnabled(false);
             SetFfireObjectsEnabled(true);
-            SetFtelportObjectsEnabled(false);
+           // SetFtelportObjectsEnabled(false);
         }
         else if (index == 3)
         {
             //배열에 있는 상호작용 ftelport의 상호작용만 기능을 활성화
             SetFwoodObjectsEnabled(false);
             SetFfireObjectsEnabled(false);
-            SetFtelportObjectsEnabled(true);
+            //SetFtelportObjectsEnabled(true);
         }
     }
 
@@ -70,12 +70,12 @@ public class SetMenu3 : MonoBehaviour
         }
     }
 
-    // Ftelport 배열의 모든 오브젝트의 enabled 값을 설정하는 메서드
-    private void SetFtelportObjectsEnabled(bool enabled)
-    {
-        foreach (XRRayInteractor ftelportObject in Ftelport)
-        {
-            ftelportObject.enabled = enabled;
-        }
-    }
+    //// Ftelport 배열의 모든 오브젝트의 enabled 값을 설정하는 메서드
+    //private void SetFtelportObjectsEnabled(bool enabled)
+    //{
+    //    foreach (XRRayInteractor ftelportObject in Ftelport)
+    //    {
+    //        ftelportObject.enabled = enabled;
+    //    }
+    //}
 }
