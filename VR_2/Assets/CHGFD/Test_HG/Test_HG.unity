@@ -175,7 +175,6 @@ GameObject:
   - component: {fileID: 325059933}
   - component: {fileID: 325059932}
   - component: {fileID: 325059931}
-  - component: {fileID: 325059930}
   - component: {fileID: 325059935}
   m_Layer: 0
   m_Name: Capsule
@@ -184,20 +183,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &325059930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325059929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61dabc2bc392ef4408c704dc982e1221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetObject: {fileID: 325059929}
-  nextSceneName: Test2_HG
 --- !u!136 &325059931
 CapsuleCollider:
   m_ObjectHideFlags: 0

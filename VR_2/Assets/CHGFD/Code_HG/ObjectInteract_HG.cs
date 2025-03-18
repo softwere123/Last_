@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ObjectInteraction : MonoBehaviour
+public class ObjectInteraction_HG : MonoBehaviour
 {
     public GameObject targetObject; // 활성화할 오브젝트
     public string nextSceneName; // 전환할 씬 이름

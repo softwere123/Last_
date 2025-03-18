@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Trigger : MonoBehaviour
+public class Trigger_HG : MonoBehaviour
 {
     public string nextSceneName; // 넘어갈 씬 이름
 
